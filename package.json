@@ -1,55 +1,27 @@
 {
-  "name": "lib-demo",
+  "name": "material-dynamic-table",
   "version": "9.4.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
-    "copy": "cp README.md dist/material-dynamic-table",
-    "build-lib": "ng build --prod material-dynamic-table && npm run copy",
-    "postinstall": "ngcc"
+  "license": "MIT",
+  "author": "Marcin Suty",
+  "description": "Dynamic table component for angular built on top of angular material table. It offers sorting, pagination, filtering per column and the ability to specify content types and components used for displaying them.",
+  "keywords": [
+    "angular",
+    "angular2",
+    "angular9",
+    "ng",
+    "ng2",
+    "dynamic",
+    "material",
+    "table",
+    "data"
+  ],
+  "repository": {
+    "url": "https://github.com/relair/material-dynamic-table.git",
+    "type": "git"
   },
-  "private": true,
-  "dependencies": {
-    "@angular/animations": "^9.0.5",
-    "@angular/cdk": "^9.1.1",
-    "@angular/common": "^9.0.5",
-    "@angular/compiler": "^9.0.5",
-    "@angular/core": "^11.0.5",
-    "@angular/forms": "^9.0.5",
-    "@angular/material": "^9.1.1",
-    "@angular/platform-browser": "^9.0.5",
-    "@angular/platform-browser-dynamic": "^9.0.5",
-    "@angular/router": "^9.0.5",
-    "rxjs": "^6.5.4",
-    "zone.js": "^0.10.2"
-  },
-  "devDependencies": {
-    "@angular-devkit/build-angular": "^0.900.5",
-    "@angular-devkit/build-ng-packagr": "^0.803.19",
-    "@angular/cli": "^9.0.5",
-    "@angular/compiler-cli": "^9.0.5",
-    "@angular/language-service": "^9.0.5",
-    "@types/jasmine": "^2.8.16",
-    "@types/jasminewd2": "^2.0.8",
-    "@types/node": "~13.7.7",
-    "codelyzer": "~5.2.0",
-    "jasmine-core": "~2.99.1",
-    "jasmine-spec-reporter": "~4.2.1",
-    "karma": "~4.4.1",
-    "karma-chrome-launcher": "~2.2.0",
-    "karma-coverage-istanbul-reporter": "^2.0.6",
-    "karma-jasmine": "~1.1.2",
-    "karma-jasmine-html-reporter": "^0.2.2",
-    "ng-packagr": "^5.2.0",
-    "protractor": "^5.4.2",
-    "ts-node": "~7.0.0",
-    "tsickle": "~0.36.0",
-    "tslib": "^1.10.0",
-    "tslint": "~5.11.0",
-    "typescript": "3.7.5"
+  "peerDependencies": {
+    "@angular/common": "^9.0.0",
+    "@angular/core": "^9.0.0",
+    "@angular/material": "^9.0.0"
   }
 }
